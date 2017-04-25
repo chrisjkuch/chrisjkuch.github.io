@@ -1,5 +1,9 @@
-
-# Evanston Mayoral Primary Election
+---
+layout: post
+title:  "Evanston Mayoral Primary Election Results"
+date:   2017-03-16 15:00:00 -0500
+categories: jekyll evanston
+---
 
 Time to attempt to be a small-time political operative by doing some analysis of Evanston's mayoral primary election held on February 28th, 2017. We'll use Folium to make some chloropleth maps that let us visualize what the results look like in different precincts.
 
