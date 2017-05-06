@@ -527,8 +527,8 @@ for index, station_data in station_locations.iterrows():
 ```python
 # Create the map
 cta_map = folium.Map(location=[41.881832, -87.623177], 
-                     tiles='https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY29vbG1hcHNicm8iLCJhIjoiY2oyY3Fxd2RnMDQ4aDMycXIxM2w4czRiMyJ9.7T7degT1VkMZSLn1Od1hVw', 
-                     API_key='pk.eyJ1IjoiY29vbG1hcHNicm8iLCJhIjoiY2oyY3Fxd2RnMDQ4aDMycXIxM2w4czRiMyJ9.7T7degT1VkMZSLn1Od1hVw',
+                     tiles='https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=my_key', 
+                     API_key='my_key',
                      attr='Mapbox Light',
                      zoom_start=10)
 misses = []
