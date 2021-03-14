@@ -13,7 +13,7 @@ subtitle: "Discussions with data scientists about what data science even is, any
 lang: en-us
 author: Chris Kucharczyk
 copyright: "CC-BY 4.0"
-baseurl: "/b2a" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://chrisjkuch.github.io" # the base hostname & protocol for your site
 github_username: chrisjkuch
 
