@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<section class="cover-container">
+  <div class="cover">
+    <div class="cover-title">
+      <h2>{{ page.title }}</h2>
+
+      <p class="post-meta">
+        <time
+          datetime="{{ page.date | date_to_xmlschema }}"
+          itemprop="datePublished"
+          >{{ page.date | date: "%b %-d, %Y" }}</time
+        >
+      </p>
+
+      <audio controls>
+        <source src="{{ page.file }}" type="audio/mp3" />
+      </audio>
+      <p>{{ page.description }}</p>
+    </div>
+    <div class="cover-art">
+      <img src="{{ site.baseurl }}/images/BTA.jpg" />
+    </div>
+  </div>
+</section>
+
+<article class="post container">
+  <div>
+    {{ content }}
+
+    <!-- <p><em>Keywords - {{ page.keywords }}</em></p> -->
+  </div>
+</article>
+
+<script src="{{ site.baseurl }}/js/plyr.js"></script>
+<script>
+  plyr.setup();
+</script>

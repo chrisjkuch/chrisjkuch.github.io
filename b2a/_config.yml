@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Between Two Axes
+email: ckucharczyk@ideo.com
+description: "The IDEO Data Science Interview Podcast"
+subtitle: "Discussions with data scientists about what data science even is, anyway"
+lang: en-us
+author: Chris Kucharczyk
+copyright: "CC-BY 4.0"
+baseurl: "/b2a" # the subpath of your site, e.g. /blog
+url: "https://chrisjkuch.github.io" # the base hostname & protocol for your site
+github_username: chrisjkuch
+
+permalink: :year/:title.html
+
+#Timezone
+timezone: United States/Chicago
+
+#Setup for Pages
+include: ["_pages"]
+
+# Build settings
+markdown: kramdown
+
+#Exclude local build settings
+exclude: ["readme.md", "Gemfile.lock", "Gemfile"]
+
+theme: jekyll-theme-minimal
