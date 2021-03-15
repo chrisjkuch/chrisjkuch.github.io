@@ -109,7 +109,7 @@ input {
 button.button-primary:hover {
   color: $dark-grey;
   background-color: $secondary-color;
-  border-color: #fff;
+  border-color: $secondary-color;
 }
 
 .button.button-secondary:hover,

@@ -4,6 +4,14 @@
   margin-bottom: 20px;
 }
 
+a.dark-link {
+  color: $primary-color;
+}
+
+a.dark-link:hover {
+  color: $secondary-color;
+}
+
 .cover {
   display: flex;
   flex-flow: row wrap-reverse;

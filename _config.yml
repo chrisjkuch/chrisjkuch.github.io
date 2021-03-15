@@ -13,7 +13,7 @@ subtitle: "Discussions with data scientists about what data science even is, any
 lang: en-us
 author: Chris Kucharczyk
 copyright: "CC-BY 4.0"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chrisjkuch.github.io" # the base hostname & protocol for your site
 github_username: chrisjkuch
 
@@ -31,4 +31,4 @@ markdown: kramdown
 #Exclude local build settings
 exclude: ["readme.md", "Gemfile.lock", "Gemfile"]
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
