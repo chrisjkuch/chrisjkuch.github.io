@@ -21,15 +21,12 @@
 		</itunes:owner>
         <itunes:image href="{{ site.url }}{{ site.baseurl }}/images/itunes.jpg" />
 		<itunes:category text="Technology" />
-		<itunes:category text="Society &amp; Culture" />
-        <itunes:category text="Education">
-            <itunes:category text="Educational Technology" />
-        </itunes:category> 
         <itunes:explicit>no</itunes:explicit>
 		
 {% for post in site.posts %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
+            <link>{{ post.url | prepend: site.baseurl }}</link>
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
