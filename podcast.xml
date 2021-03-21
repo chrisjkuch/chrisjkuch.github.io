@@ -26,7 +26,7 @@
 {% for post in site.posts %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
-            <link>{{ post.url | prepend: site.baseurl }}</link>
+            <link>{{ post.url | prepend: site.url }}</link>
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
