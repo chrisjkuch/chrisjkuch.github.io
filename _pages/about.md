@@ -20,4 +20,4 @@ Executive Produced by Ross Weijer
 
 Theme Music by Ross Weijer, Nat Steinsultz, and Ryan Cranfill
 
-Podcast Cover Artwork by Becky Carlson
+Podcast Cover Artwork by Becky Carlson and Sam Becker
