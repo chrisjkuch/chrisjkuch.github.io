@@ -1,3 +1,3 @@
-## This is the site for **Between Two Axes**!
+# chrisjkuch.github.io
 
-This site was "remixed" from the [Infusing Computing Pod](https://wiobyrne.github.io/infusing-computing-pod/index.html)
+This is a placeholder for my personal site.
